@@ -27,3 +27,6 @@ app.use('/api/v1/user', userRoute);
 app.listen(PORT, ()=> {
     console.log("server running");
 })
+
+
+module.exports = app;
