@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 2,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 3,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 4,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 5,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 6,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    },
+    {
+        "id": 7,
+        "gender": "male",
+        "name": "john doe",
+        "contact": "045934-0",
+        "address": "some address",
+        "photourl": "photolink"
+    }
+]
