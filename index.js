@@ -8,11 +8,7 @@ app.use(express.json());
 const PORT = 3000;
 
 app.get("/", (req, res)=> {
-    fs.readFile('./userData.json', 'utf8', (err, data)=> {
-        const d = JSON.parse(data);
-        res.send(d);
-        console.log(d.length);
-    })
+    res.send("server running");
 })
 
 app.get('/write', (req, res)=> {
