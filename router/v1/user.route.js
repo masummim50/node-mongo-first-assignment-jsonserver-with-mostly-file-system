@@ -15,7 +15,11 @@ router.patch('/update/:id',updateUserMiddleware, updateUser)
 
 router.patch('/bulk-update', bulkUpdateMiddleware, bulkUpdate);
 
-router.delete('/delete/:id', deleteUser)
+router.delete('/delete/:id', deleteUser);
+
+router.get('/write', (req,res)=> {
+    res.send('sending from router file')
+})
 
 
 module.exports = router;

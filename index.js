@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = 3000;
 
 app.get("/", (req, res)=> {
-    res.send("server running smoothly with write path");
+    res.send("server running");
 })
 
 app.get('/write', (req, res)=> {
