@@ -7,11 +7,11 @@ const userRoute = require("./router/v1/user.route");
 const app = express();
 app.use(express.json());
 app.use(bodyParser.json())
-app.user(bodyParser.urlencoded({extended: true}))
+app.user(bodyParser.urlencoded({extended: false}))
 const PORT = 3000;
 
 app.get("/", (req, res)=> {
-    res.send("server running used");
+    res.send("server running false");
 })
 
 app.get('/write', (req, res)=> {
