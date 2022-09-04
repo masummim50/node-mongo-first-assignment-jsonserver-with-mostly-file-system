@@ -1,3 +1,4 @@
+const bodyParser = require('body-parser');
 const { json } = require('express');
 const express = require('express');
 const fs = require('fs');
@@ -5,10 +6,12 @@ const userRoute = require("./router/v1/user.route");
 
 const app = express();
 app.use(express.json());
+app.use(bodyParser.json())
+app.user(bodyParser.urlencoded({extended: true}))
 const PORT = 3000;
 
 app.get("/", (req, res)=> {
-    res.send("server running");
+    res.send("server running used");
 })
 
 app.get('/write', (req, res)=> {
