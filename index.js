@@ -8,15 +8,11 @@ app.use(express.json());
 const PORT = 3000;
 
 app.get("/", (req, res)=> {
-    res.send("server running smoothly");
+    res.send("server running smoothly with write path");
 })
 
 app.get('/write', (req, res)=> {
-    fs.readFile('./userData.json', (err, data)=> {
-        fs.writeFile('mock.json', data, (err, data)=> {
-        console.log('d')
-    });
-    })
+   res.send("sending response from write")
     
 })
 
